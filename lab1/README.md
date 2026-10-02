@@ -150,6 +150,10 @@ int main()
   }
 ```
 
+> [!IMPORTANT]
+> Caratteri come `{`, `}`, `` ` ``, `~` non sono presenti sulla tastiera italiana standard. Potete trovare delle
+> istruzioni su come installare una tastiera italiana per sviluppatori in [questa pagina](https://github.com/Programmazione-per-la-Fisica/howto/blob/main/developer-keyboard/README.md).
+
 Questo codice contiene una funzione `main()` che esegue il le istruzioni inserite tra la parentesi graffe (per ora
 niente).
 Salviamo di nuovo il file ed eseguiamo nel terminale il seguente comando:
