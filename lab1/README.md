@@ -8,7 +8,7 @@ In questa lezione impareremo alcuni concetti base della programmazione tramite i
 - [Laboratorio 1](#laboratorio-1)
   - [Area di lavoro](#area-di-lavoro)
   - [Primi passi](#primi-passi)
-    - [Disattivare assistenti AI in VSCode (GitHub Copilot)](#disattivare-assistenti-ai-in-vscode-github-copilot)
+    - [Disinstallare assistenti AI in VSCode (GitHub Copilot)](#disinstallare-assistenti-ai-in-vscode-github-copilot)
   - [Esercizio 1: stampa di una stringa su schermo](#esercizio-1-stampa-di-una-stringa-su-schermo)
   - [Esercizio 2: operazioni matematiche e uso di variabili](#esercizio-2-operazioni-matematiche-e-uso-di-variabili)
   - [Esercizio 3: somma dei primi _n_ numeri naturali](#esercizio-3-somma-dei-primi-n-numeri-naturali)
@@ -187,7 +187,7 @@ dell'area di lavoro eseguendo il comando _Format Document_:
 
 > [!IMPORTANT]
 > Come molti altri programmi, VSCode offre un'ampia gamma di ai tasti di scelta rapida. È opportuno imparare, sin dal
-> principio, ad utilizzare quelli più comuni. È possibile scaricare un file `.pdf`, che ne contiene una lista, dai 
+> principio, ad utilizzare quelli più comuni. È possibile scaricare un file `.pdf`, che ne contiene una lista, dai
 > seguenti URL (per il sistema operativo che state utilizzando):
 >
 > - MacOS: [https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
@@ -211,20 +211,23 @@ $ g++ -Wall -Wextra hello.cpp -o hello
 > Le opzioni `-Wall` e `-Wextra` abilitano messaggi di _warning_ opzionali che aiutano ad evidenziare problemi nel
 > codice.
 
-### Disattivare assistenti AI in VSCode (GitHub Copilot)
+### Disinstallare assistenti AI in VSCode (GitHub Copilot)
 
-VSCode ha recentemente introdotto diverse funzionalità di assistenza alla scrittura del codice basate su Intelligenza Artificiale (IA), come l'auto-completamento avanzato e suggerimenti di codice. Tuttavia, per evitare interferenze con il processo di apprendimento e la comprensione dei concetti di base, si consiglia di disattivare queste funzionalità durante i laboratori.
+VSCode ha recentemente introdotto diverse funzionalità di assistenza alla scrittura del codice basate su Intelligenza
+Artificiale (IA), come l'auto-completamento avanzato e suggerimenti di codice. Tuttavia, per evitare interferenze con
+il processo di apprendimento e la comprensione dei concetti di base, si consiglia di disinstallare queste funzionalità
+durante i laboratori.
 
-Per disattivare completamente gli assistenti AI in VSCode (Copilot), seguite questi passaggi:
+Per disinstallare completamente gli assistenti AI in VSCode (Copilot), seguite questi passaggi:
 
-1. Dalla barra dei menu a sinistra, selezionate `Extensions` (l'icona a forma di quadrato con quattro quadratini più piccoli), 
-   quindi cercate "Copilot" nella barra di ricerca.
-2. Cliccate sull'icona dell'ingranaggio accanto all'estensione "GitHub Copilot" e selezionate `Uninstall` per rimuovere l'estensione.
+1. Dalla barra dei menu a sinistra, selezionate `Extensions` (l'icona a forma di quadrato con quattro quadratini più
+  piccoli), quindi cercate "Copilot" nella barra di ricerca.
+2. Cliccate sull'icona dell'ingranaggio accanto all'estensione "GitHub Copilot" e selezionate `Uninstall` per
+  rimuovere l'estensione.
 3. Riavviate VSCode per applicare le modifiche.
 
-Se questo non dovesse essere sufficiente, cliccate sull'icona dell'ingranaggio in basso a sinistra, selezionate `Settings`, cercate
-  `Disable AI` e abilitate l'opzione `Disable AI Features`.
-
+Se questo non dovesse essere sufficiente, cliccate sull'icona dell'ingranaggio in basso a sinistra, selezionate
+  `Settings`, cercate `Disable AI` e abilitate l'opzione `Disable AI Features`.
 
 ## Esercizio 1: stampa di una stringa su schermo
 
