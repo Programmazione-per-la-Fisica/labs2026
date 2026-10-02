@@ -1,7 +1,7 @@
 # Frequently Asked Questions (FAQs)
 
 Quella che segue è una lista delle domande di carattere logistico che risultano più frequenti riguardo ai laboratori di
-_[Programmazione per la Fisica](https://github.com/Programmazione-per-la-Fisica/pf2025)_.
+_[Programmazione per la Fisica](https://github.com/Programmazione-per-la-Fisica/pf2026)_.
 
 - [Frequently Asked Questions (FAQs)](#frequently-asked-questions-faqs)
   - [I laboratori sono obbligatori?](#i-laboratori-sono-obbligatori)
