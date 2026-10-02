@@ -8,7 +8,7 @@ In questa lezione impareremo alcuni concetti base della programmazione tramite i
 - [Laboratorio 1](#laboratorio-1)
   - [Area di lavoro](#area-di-lavoro)
   - [Primi passi](#primi-passi)
-    - [Disinstallare assistenti AI in VSCode (GitHub Copilot)](#disinstallare-assistenti-ai-in-vscode-github-copilot)
+    - [Disattivare assistenti AI in VSCode (GitHub Copilot)](#disattivare-assistenti-ai-in-vscode-github-copilot)
   - [Esercizio 1: stampa di una stringa su schermo](#esercizio-1-stampa-di-una-stringa-su-schermo)
   - [Esercizio 2: operazioni matematiche e uso di variabili](#esercizio-2-operazioni-matematiche-e-uso-di-variabili)
   - [Esercizio 3: somma dei primi _n_ numeri naturali](#esercizio-3-somma-dei-primi-n-numeri-naturali)
@@ -56,8 +56,8 @@ drwxrwxr-x 3 diotalevi diotalevi 4096 Sep 30 16:16 ..
 ```
 
 > [!NOTE]
-> La scelta della strutture del nome della directory `pf_labs` è totalmente arbitraria, potete scegliere liberamente un
-> nome diverso in base alle vostre preferenze.
+> Raccomandiamo di utilizzare `pf_labs` come nome della cartella principale, come convenzione per tutti i
+> laboratori del corso. La cartella `lab1` sarà invece dedicata al primo laboratorio, che cambierà per i successivi.
 >
 > :question: Il path `pf_labs/lab1` è relativo o assoluto?
 >
@@ -211,14 +211,14 @@ $ g++ -Wall -Wextra hello.cpp -o hello
 > Le opzioni `-Wall` e `-Wextra` abilitano messaggi di _warning_ opzionali che aiutano ad evidenziare problemi nel
 > codice.
 
-### Disinstallare assistenti AI in VSCode (GitHub Copilot)
+### Disattivare assistenti AI in VSCode (GitHub Copilot)
 
 VSCode ha recentemente introdotto diverse funzionalità di assistenza alla scrittura del codice basate su Intelligenza
 Artificiale (IA), come l'auto-completamento avanzato e suggerimenti di codice. Tuttavia, per evitare interferenze con
-il processo di apprendimento e la comprensione dei concetti di base, si consiglia di disinstallare queste funzionalità
+il processo di apprendimento e la comprensione dei concetti di base, **si raccomanda** di disattivare queste funzionalità
 durante i laboratori.
 
-Per disinstallare completamente gli assistenti AI in VSCode (Copilot), seguite questi passaggi:
+Per disattivare completamente gli assistenti AI in VSCode (Copilot), seguite questi passaggi:
 
 1. Dalla barra dei menu a sinistra, selezionate `Extensions` (l'icona a forma di quadrato con quattro quadratini più
   piccoli), quindi cercate "Copilot" nella barra di ricerca.
@@ -266,8 +266,8 @@ all'oggetto.
 > ```
 
 > [!NOTE]
-> Visual Studio Code è un editor molto potente, infatti potete notare che alcune linee rosse al di sotto di parti di
-> codice che probabilmente sono sbagliate.
+> Visual Studio Code è un editor molto potente: ad esempio, è in grado di evidenziare automaticamente, tramite
+> sottolineature rosse, alcune porzioni di codice che potrebbero contenere errori.
 >
 > :exclamation: Attenti però, a volte anche Visual Studio Code potrebbe sbagliare, l'ultima parola spetta sempre al
 > compilatore!
@@ -405,7 +405,7 @@ come input.
 ### Bonus
 
 Una volta fatto questo, estendete la funzionalità del programma per calcolare la somma dei numeri naturali compresi in
-un intervalli arbitrario _[a,b]_.
+un intervallo arbitrario _[a,b]_.
 
 Alla fine dei turni del primo laboratorio, potrete trovare la soluzione dell'esercizio 3
 [al seguente link](soluzioni/sum_n.cpp).
@@ -438,15 +438,15 @@ Una lista (non esaustiva) potrebbe essere:
 > scorrere il terminale per leggere tutto l'output (<kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>↑</kbd> e
 > <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>↓</kbd>).
 
-Un altra attività opzionale, ma decisamente utile, è quella di imparare a usare i _package manager_ installati in WSL e
-mac OS: rispettivamente `apt` e `brew`.
+Un'altra attività opzionale, ma decisamente utile, è quella di imparare a usare i _package manager_ installati in WSL e
+macOS: rispettivamente `apt` e `brew`.
 
 Quello che vi suggeriamo di fare è provare a installare il programma `tree`, che permette di visualizzare la
 struttura _ad albero_ di file e directory a partire da una data cartella.
 
 > [!TIP]
 > Prima di installare il programma vi consigliamo di provare i comandi: `apt search tree` e `apt info tree` (o
-> `brew search tree` e `brew info tree` per chi usa mac OS) per imparare come trovare un determinato pacchetto e
+> `brew search tree` e `brew info tree` per chi usa macOS) per imparare come trovare un determinato pacchetto e
 > capirne il contenuto.
 
 Potete farlo eseguendo i comandi:
@@ -457,7 +457,7 @@ Potete farlo eseguendo i comandi:
 $ sudo apt install tree
 ```
 
-**mac OS**:
+**macOS**:
 
 ```zsh
 % brew install tree
