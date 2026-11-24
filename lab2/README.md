@@ -435,6 +435,11 @@ TEST_CASE("Testing the count_multiples function") {
 > Compilate aggiungendo come _flag_ di compilazione opzionale `-D_GLIBCXX_ASSERTIONS`. Questa indicherà al compilatore
 > di controllare che l'accesso agli `std::vector` tramite indici non superi la dimensione del vettore stesso.
 
+> [!IMPORTANT]
+> La funzione `std::ssize()`, che permette di ottenere il numero di elementi di uno `std::vector`, è disponibile a
+> partire dallo standard C++20. Per utilizzarla, è necessario aggiungere il _flag_ di compilazione opzionale `-std=c++20`,
+> che indica al compilatore di adottare questo standard del linguaggio.
+
 **Alcuni suggerimenti** riguardo l'implementazione della funzione:
 
 - Il controllo sul valore dell'intero passato come argomento e sulla dimensione del vettore possono essere **fatti
