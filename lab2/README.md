@@ -457,9 +457,11 @@ Alla fine dei turni del secondo laboratorio, potrete trovare la soluzione dell'e
 
 L'ultimo esercizio di oggi riguarda la scrittura e il test di una funzione che, per un dato intero positivo o nullo
 _N_, calcola l'espansione in [Serie di Taylor](https://it.wikipedia.org/wiki/Serie_di_Taylor) all'ordine _N_ della
-funzione trigonometrica $cos(x)$.
+funzione trigonometrica $cos(x)$ (Figura 1).
 
 $$ cos(x) =  \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n)!} x^{2n} \simeq \sum_{n=0}^{N} \frac{(-1)^n}{(2n)!} x^{2n} $$
+
+![Figura 1](fig/cos_taylor.png)
 
 Cominciamo creando un file che chiameremo `taylor.cpp`, dove andiamo a scrivere un frammento di codice analogo a quello
 utilizzato per cominciare l'[Esercizio 1](#esercizio-1-primi-passi-con-doctest).
